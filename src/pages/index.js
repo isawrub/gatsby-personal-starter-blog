@@ -12,7 +12,7 @@ class IndexPage extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Saurabh Chowdhury"
+          title="A Web Developer And Servant Leader"
           keywords={[`blog`, `engineering manager`, `javascript`, `asp.net`, `.net`]}
         />
         <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
