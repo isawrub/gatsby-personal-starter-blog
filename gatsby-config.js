@@ -1,7 +1,8 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Saurabh Chowdhury - Web Developer, .NET Enthusiast, Servant Leader`,
+    title: `Saurabh's Blog'`,
+    extendedTitle: `Web Developer, .NET Enthusiast, Servant Leader`,
     author: `Saurabh Chowdhury`,
     description: `Engineering manager at Quovantis Technologies. He is a web developer to the core, who is passionate about .NET and Javascript.`,
     siteUrl: `https://www.isawrub.com/`,
@@ -113,8 +114,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `My Personal Website`,
+        short_name: `iSawrub`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,

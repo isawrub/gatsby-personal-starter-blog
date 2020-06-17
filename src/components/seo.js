@@ -17,6 +17,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         site {
           siteMetadata {
             title
+            extendedTitle
             description
             author
           }
@@ -33,7 +34,7 @@ function SEO({ description, lang, meta, keywords, title }) {
         lang,
       }}
       title={title}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      titleTemplate={`%s | ${site.siteMetadata.extendedTitle}`}
       meta={[
         {
           name: `description`,

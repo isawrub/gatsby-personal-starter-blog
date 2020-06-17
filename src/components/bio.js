@@ -34,8 +34,8 @@ function Bio() {
               }}
             />
             <p>
-              Written by <strong>{author}</strong>, a framework built upon the
-              React library.
+              This blog is written by <strong>{author}</strong>, using Gatsby JS, a framework built upon 
+              React.
               {` `}
               <a href={`https://twitter.com/${social.twitter}`}>
                 Follow me on Twitter

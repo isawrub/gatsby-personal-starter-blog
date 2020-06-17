@@ -28,7 +28,7 @@ class Layout extends React.Component {
             }}
             to={location.pathname === blogPath ? `/blog/` : `/`}
           >
-            {title}
+            {location.pathname === blogPath ? `Captain's Log` : title}
           </Link>
         </h1>
       )
