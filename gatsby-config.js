@@ -6,7 +6,7 @@ module.exports = {
     description: `Engineering manager at Quovantis Technologies. He is a web developer to the core, who is passionate about .NET and Javascript.`,
     siteUrl: `https://www.isawrub.com/`,
     social: {
-      twitter: `gatsbyjs`,
+      twitter: `isawrub`,
     },
   },
   plugins: [
