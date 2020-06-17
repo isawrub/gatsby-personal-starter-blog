@@ -1,10 +1,10 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Gatsby Starter Personal Blog`,
-    author: `Gatsby`,
-    description: `A starter personal blog with styled components, dark mode, and Netlify CMS.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Saurabh Chowdhury - Web Developer, .NET Enthusiast, Servant Leader`,
+    author: `Saurabh Chowdhury`,
+    description: `Engineering manager at Quovantis Technologies. He is a web developer to the core, who is passionate about .NET and Javascript.`,
+    siteUrl: `https://www.isawrub.com/`,
     social: {
       twitter: `gatsbyjs`,
     },
@@ -107,8 +107,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        // edit below
-        // trackingId: `ADD YOUR TRACKING ID HERE`,
+        trackingId: `UA-169866020-1`,
       },
     },
     {
