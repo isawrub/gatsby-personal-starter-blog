@@ -18,6 +18,7 @@ class BlogPostTemplate extends React.Component {
         <SEO
           title={post.frontmatter.title}
           description={post.frontmatter.description || post.excerpt}
+          canonicalUrl={post.frontmatter.canonicalUrl}
         />
         <h1>{post.frontmatter.title}</h1>
         <p

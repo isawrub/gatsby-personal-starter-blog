@@ -1,7 +1,9 @@
 ---
 title: My Second Post!
 date: "2015-05-06T23:46:37.121Z"
+canonicalUrl: https://gatsby-personal-starter-blog.netlify.app/blog/my-second-post/
 ---
+*This post originally appeared on Thomas Wang's fabulous Gatsby personal blog starter*
 
 Wow! I love blogging so much already.
 

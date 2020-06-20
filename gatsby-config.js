@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     // edit below
-    title: `Saurabh's Blog'`,
+    title: `Saurabh's Blog`,
     extendedTitle: `Web Developer, .NET Enthusiast, Servant Leader`,
     author: `Saurabh Chowdhury`,
     description: `Engineering manager at Quovantis Technologies. He is a web developer to the core, who is passionate about .NET and Javascript.`,
@@ -57,6 +57,9 @@ module.exports = {
             description: node.frontmatter.description,
             date: node.frontmatter.date,
           })),
+      resolve: `gatsby-plugin-react-helmet-canonical-urls`,
+      options: {
+        siteUrl: `https://gatsby-personal-starter-blog.netlify.app`,
       },
     },
     `gatsby-plugin-feed-mdx`,

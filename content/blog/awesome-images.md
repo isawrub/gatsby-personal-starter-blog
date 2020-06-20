@@ -3,7 +3,10 @@ path: awesome-images
 date: 2020-06-06T01:22:55.506Z
 title: Awesome Images
 description: Fix for gatsby-plugin-mdx and gatsby-remark-images
+canonicalUrl: https://gatsby-personal-starter-blog.netlify.app/blog/awesome-images/
 ---
+*This post originally appeared on Thomas Wang's fabulous Gatsby personal blog starter*
+
 ![Great Gatsby](/../assets/great2.jpg "Great Gatsby")
 
 ## Netlify CMS Media Configuration

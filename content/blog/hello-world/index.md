@@ -1,7 +1,9 @@
 ---
 title: Hello World
 date: "2015-05-01T22:12:03.284Z"
+canonicalUrl: https://gatsby-personal-starter-blog.netlify.app/blog/hello-world/
 ---
+*This post originally appeared on Thomas Wang's fabulous Gatsby personal blog starter*
 
 This is my first post on my new fake blog! How exciting!
 
