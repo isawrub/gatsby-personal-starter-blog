@@ -58,6 +58,10 @@ function SEO({ description, lang, meta, keywords, title, canonicalUrl }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: `https://res.cloudinary.com/isawrub/image/upload/v1590074254/isawrub-media/Quant-2019-ColorCorrected_wbnfix.jpg`,
+        },
+        {
           name: `twitter:card`,
           content: `summary`,
         },
