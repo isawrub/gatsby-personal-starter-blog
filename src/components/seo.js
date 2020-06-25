@@ -20,6 +20,7 @@ function SEO({ description, lang, meta, keywords, title, canonicalUrl }) {
             extendedTitle
             description
             author
+            siteUrl
           }
         }
       }
@@ -83,6 +84,14 @@ function SEO({ description, lang, meta, keywords, title, canonicalUrl }) {
           name: `twitter:description`,
           content: metaDescription,
         },
+        {
+          property: `twitter:image`,
+          content: `https://res.cloudinary.com/isawrub/image/upload/v1590074254/isawrub-media/Quant-2019-ColorCorrected_wbnfix.jpg`,
+        },
+        {
+          property: `twitter:site`,
+          content: site.siteMetadata.siteUrl
+        }
       ]
         .concat(
           keywords.length > 0
