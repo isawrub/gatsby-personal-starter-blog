@@ -14,14 +14,15 @@ class IndexPage extends React.Component {
         <SEO
           title="A Web Developer And Servant Leader"
           keywords={[`blog`, `engineering manager`, `javascript`, `asp.net`, `.net`]}
+          location={this.props.location}
         />
         <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
-        <h1>
+        <h2>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
             👋
           </span>
-        </h1>
+        </h2>
         <p>Welcome to my personal website.</p>
         <p>
           I am an Engineering Manager at Quovantis Technologies.

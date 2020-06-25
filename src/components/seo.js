@@ -26,7 +26,13 @@ function SEO({ description, lang, meta, keywords, title, canonicalUrl }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const metaDescription = description || site.siteMetadata.description;
+
+  //const url = location.href ? location.href : site.siteMetadata.siteUrl;
+
+  /*  https://www.seowebdesignllc.com/how-to-get-the-current-page-url-in-gatsby/
+      https://www.gatsbyjs.org/docs/location-data-from-props/
+  */
 
   return (
     <Helmet
@@ -36,9 +42,9 @@ function SEO({ description, lang, meta, keywords, title, canonicalUrl }) {
       title={title}
       titleTemplate={`%s | ${site.siteMetadata.author}`}
       link={
-        canonicalUrl
+        canonicalUrl !== undefined
         ? [{ rel: 'canonical', key: canonicalUrl, href: canonicalUrl }]
-        : []
+        : [{ rel: 'canonical', key: ``, href:`` }]
         }
       meta={[
         {
@@ -96,6 +102,7 @@ SEO.defaultProps = {
   meta: [],
   keywords: [],
   description: ``,
+  link: []
 }
 
 SEO.propTypes = {
