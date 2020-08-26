@@ -16,7 +16,7 @@ class IndexPage extends React.Component {
           keywords={[`blog`, `engineering manager`, `javascript`, `asp.net`, `.net`]}
           location={this.props.location}
         />
-        <img style={{ margin: 0 }} src="./GatsbyScene.svg" alt="Gatsby Scene" />
+        <img style={{ margin: 0 }} src="./i-am-saurabh.png" alt="I love coffee" />
         <h2>
           Hey people{" "}
           <span role="img" aria-label="wave emoji">
