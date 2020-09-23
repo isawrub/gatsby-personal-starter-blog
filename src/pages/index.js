@@ -27,7 +27,7 @@ class IndexPage extends React.Component {
         <p>
           I am an Engineering Manager at Quovantis Technologies.
           I have been building web applications using .NET and JavaScript for more than a decade.
-          I live in New Delhi, with my wife & daughter.
+          I live in the National Capital Region of Delhi, India, with my wife & daughter.
         </p>
         <p>I like to talk about engineering management, leadership and web development here!</p>
         <Link to="/blog/">
