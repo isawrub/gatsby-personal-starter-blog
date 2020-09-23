@@ -29,7 +29,7 @@ class IndexPage extends React.Component {
           I have been building web applications using .NET and JavaScript for more than a decade.
           I live in the National Capital Region of Delhi, India, with my wife & daughter.
         </p>
-        <p>I like to talk about engineering management, leadership and web development here!</p>
+        <p>I like to talk about engineering management, leadership, and web development here!</p>
         <Link to="/blog/">
           <Button marginTop="35px">Go to Blog</Button>
         </Link>

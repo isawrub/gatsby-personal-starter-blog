@@ -61,6 +61,7 @@ module.exports = {
       options: {
         siteUrl: `https://gatsby-personal-starter-blog.netlify.app`,
       },
+      }
     },
     `gatsby-plugin-feed-mdx`,
     `gatsby-plugin-root-import`,
