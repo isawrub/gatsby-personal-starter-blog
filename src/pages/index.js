@@ -13,7 +13,7 @@ class IndexPage extends React.Component {
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
           title="A Web Developer And Servant Leader"
-          keywords={[`blog`, `engineering manager`, `javascript`, `asp.net`, `.net`]}
+          keywords={[`blog`, `engineering`, `javascript`, `asp.net`, `.net`]}
           location={this.props.location}
         />
         <img style={{ margin: 0 }} src="./i-am-saurabh.png" alt="I love coffee" />
@@ -25,7 +25,7 @@ class IndexPage extends React.Component {
         </h2>
         <p>Welcome to my personal website.</p>
         <p>
-          I am an Engineering Manager at Quovantis Technologies.
+          I am Director of Engineering at Quovantis Technologies.
           I have been building web applications using .NET and JavaScript for more than a decade.
           I live in the National Capital Region of Delhi, India, with my wife & daughter.
         </p>
